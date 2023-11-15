@@ -12,7 +12,7 @@ Python module `dipl` can be installed using `pip` from the [PyPi repository](htt
 pip3 install dipl
 ```
 
-## Reading DIP code
+## Loading DIP code
 
 Loading DIP code from a string is straightforward.
 
@@ -55,7 +55,7 @@ or to select only requested nodes using query, or tags:
 }
 ```
 
-## Parsing DIP code
+## Dumping DIP code
 
 Python dictionaries can be parsed into DIP code, provided that they have a proper structure.
 An example parsing is shown below.
