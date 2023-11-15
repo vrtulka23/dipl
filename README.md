@@ -4,6 +4,14 @@ This module is a quick reading/parsing tool for Dimensional Input Parameter Lang
 For more information about DIP, please visit its official [documentation](https://vrtulka23.github.io/scinumtools/dip/index.html).
 More functionality can be reqested in [GitHub Issues](https://github.com/vrtulka23/dipl/issues).
 
+## Installation
+
+Python module `dipl` can be installed using `pip` from the [PyPi repository](https://pypi.org/project/dipl/):
+
+``` bash
+pip3 install dipl
+```
+
 ## Reading DIP code
 
 Loading DIP code from a string is straightforward.
