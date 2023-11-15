@@ -25,6 +25,11 @@ def test_loading():
         'age': 23,
     }
     
+    assert dipl.load(text, Format.QUANTITY) == {
+        'width': Quantity(23.34, 'cm'),
+        'age': Quantity(23, 'yr'),
+    }
+    
     assert dipl.load(text, query="width") == {
         'width': (23.34, 'cm'),
     }

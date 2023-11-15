@@ -27,10 +27,10 @@ It is also possible to change data output format,
 
 ``` python
 >>> from dipl import Format
->>> dipl.load(text, Format.VALUE)
+>>> dipl.load(text, Format.QUANTITY)
 {
-  'width': 23.34,
-  'age': 23,
+  'width': Quantity(23.34, 'cm'),
+  'age': Quantity(23, 'yr'),
 }
 ```
 
